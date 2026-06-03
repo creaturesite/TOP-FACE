@@ -1,0 +1,243 @@
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*,
+::after,
+::before{
+    box-sizing: inherit;
+}
+body{
+    font-size: 16px;
+    font-family: Arial;
+    margin: 0;
+    background-color: black;
+    color: white;
+    padding: 0;
+}
+html, body 
+{
+width: 100%;
+max-width: 100%;
+overflow-x: hidden;
+margin: 0;
+
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.header
+{
+     background-color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+box-sizing: border-box;
+
+  
+}
+
+.header_container
+{
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.header_logo
+{
+    width: 500px;
+
+}
+.header_logo:focus{
+    opacity: .8;
+
+}
+.menu_list{
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+    font-size: 40px;
+    color: black;
+    list-style: none;
+   
+    font-weight: bold;
+    margin-left: 0;
+    padding-left: 0;
+}
+  .menu_link
+{
+    color: black;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.menu_link:focus{
+    color: darkblue;
+}
+.hero_content
+{
+    text-align: center;
+    padding-top: 100px;
+}
+.topface
+{
+    font-size:40px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.catalogue_list
+{
+list-style: none;
+text-align: center;
+padding-left: 0;
+margin-left: 0;
+}
+.price
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.one, .two
+{
+   
+    font-size: 100px;
+   
+}
+.Subtitle
+{
+    text-align: center;
+    padding-top: 90px;
+    font-size: 50px;
+}
+.ss
+{
+    display: flex;
+    flex-direction: column;
+   
+}
+.i2
+{
+   
+    width: 80px;
+   
+}
+.i22
+{
+    text-align: center;
+}
+.names
+{
+    font-size: 20px;
+    text-align: center;
+}
+.haircuts
+{
+    width: 350px;
+    border-radius: 20px;
+    outline: 2px solid  white;
+    outline-offset: 5px;
+}
+.hairs{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+}
+.iii
+{
+    width: 300px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.Svaz
+{
+    padding-top: 0;
+    margin-top: 0;
+}
+.phone
+{
+    width: 80px;
+}
+.info 
+{
+    display: flex;
+    align-items: center;
+}
+.n 
+{
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+.adress{
+font-weight: bold;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+text-align: center;
+}
+.ad 
+{
+    font-size: 20px;
+    text-decoration: underline;
+}
+.Subtitle
+{
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 50px;
+     opacity: 1;
+    transform: translateY(30px);
+    transition: 1s;
+
+   
+}
+.hero_content
+{
+    opacity: 1;
+    transform: translateY(30px);
+    transition: 1s;
+}
+
+
+   @media ( max-width: 740px)
+    {
+.header_container
+{
+    display: block;
+   padding-left: 0;
+   padding-right: 0;
+}
+.header_logo
+{
+    
+    cursor: pointer;
+    text-align: center;
+    width: 400px;
+
+}
+.menu_list{
+    display: flex;
+    justify-content: space-around;
+   
+    padding-top: 14px;
+    padding-bottom: 10px;
+    gap: 30px;
+    font-size: 30px;
+    
+}
+    }
